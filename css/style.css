@@ -105,10 +105,51 @@
     background-size: cover;
 }
 
+@media screen and (max-width:768px) {
+    .work-img-4 {
+        background-image: url(../images/w44.jpg);
+        background-size: cover !important;
+
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .work-img-4 {
+        background-image: url(../images/w44.jpg);
+        background-size: cover !important;
+
+
+    }
+
+}
+
+
 .work-img-5 {
     height: 15rem;
     background-image: url(../images/w5.jpg);
     background-size: cover;
+}
+
+@media screen and (max-width:768px) {
+    .work-img-5 {
+        background-image: url(../images/w55.jpg);
+        background-size: cover !important;
+
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .work-img-5 {
+        background-image: url(../images/w55.jpg);
+        background-size: cover !important;
+
+
+    }
+
 }
 
 /* footer */
@@ -134,7 +175,7 @@
 
 @media screen and (max-width: 576px) {
     .height-footer {
-        height: 50rem !important;
+        height: 52rem !important;
     }
 
 }

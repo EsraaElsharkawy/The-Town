@@ -1,0 +1,140 @@
+/* * {
+    font-family: sans-serif !important;
+} */
+
+/* main view  */
+.bac-gr-main {
+    background-image: url(../images/header1.jpg);
+    background-size: cover;
+
+}
+
+.fs-0 {
+    font-size: 3.25rem !important;
+}
+
+.color-with-hover:hover {
+    color: rgb(13, 110, 253) !important;
+}
+
+.color-with-hover:focus {
+    color: rgb(13, 110, 253) !important;
+}
+
+/* works */
+
+.bac-gr-works {
+    background-image: linear-gradient(180deg, #e3987f, #5c648c);
+    height: 18rem;
+}
+
+@media screen and (max-width: 768px) {
+    .bac-gr-works {
+        background: none;
+        padding-bottom: 0rem !important;
+    }
+
+}
+
+.color-link-works {
+    text-decoration: none;
+}
+
+.color-link-works:hover {
+    color: rgba(66, 80, 119, 1) !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .first-para {
+
+        background-image: linear-gradient(180deg, #e3987f, #5c648c);
+        margin-bottom: 0.5rem;
+
+        padding: 2rem;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .second-para {
+        background-image: linear-gradient(180deg, #e3987f, #5c648c);
+        margin-bottom: 0.5rem;
+
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .third-para {
+        background-image: linear-gradient(180deg, #e3987f, #5c648c);
+
+
+        padding: 2rem;
+    }
+
+}
+
+/* our work */
+
+
+
+.work-img-1 {
+    height: 15rem;
+    background-image: url(../images/w1.jpg);
+    background-size: cover;
+}
+
+.work-img-2 {
+    height: 15rem;
+    background-image: url(../images/w2.jpg);
+    background-size: cover;
+}
+
+.work-img-3 {
+    height: 15rem;
+    background-image: url(../images/w3.jpg);
+    background-size: cover;
+}
+
+.work-img-4 {
+    height: 15rem;
+    background-image: url(../images/w4.jpg);
+    background-size: cover;
+}
+
+.work-img-5 {
+    height: 15rem;
+    background-image: url(../images/w5.jpg);
+    background-size: cover;
+}
+
+/* footer */
+.height-footer {
+    height: 40rem;
+}
+
+.bac-gr-footer {
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+}
+
+.text-color-subscribe::placeholder {
+    color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+    .height-footer {
+        height: 47rem !important;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .height-footer {
+        height: 50rem !important;
+    }
+
+}
